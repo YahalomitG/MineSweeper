@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.lives {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    margin-top: 20px
+}
+
+.board td {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    transition: 0.15s;
+}
+
+.cell {
+
+    border: 2px outset rgb(164, 125, 125);
+    gap: 0%;
+    background-color: rgb(104, 113, 104);
+    background-size: 100%;
+    font-weight: 900;
+}
+
+.opened {
+    background-color: lightgray;
+}
+
+
+
+.modal {
+    display: none;
+    background-color: black;
+    border: 5px solid white;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+
+    position: absolute;
+    top: 300px;
+    left: calc(50% - 175px);
+}
